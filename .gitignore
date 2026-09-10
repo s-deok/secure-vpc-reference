@@ -1,0 +1,24 @@
+# Terraform 상태 파일 - 리소스 ID, 때로는 민감 정보가 포함될 수 있어 절대 커밋하지 않는다
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform 작업 디렉토리 - provider 바이너리 등, 용량 크고 재생성 가능
+.terraform/
+.terraform.lock.hcl
+
+# 변수 파일에 실제 값(계정 정보 등)을 넣었을 경우 대비
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# plan 결과 파일 - 인프라 세부정보 노출 가능성
+*.tfplan
+crash.log
+crash.*.log
+
+# OS/에디터 관련 잡파일
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
