@@ -1,10 +1,8 @@
 # Secure VPC Reference Architecture
 
-클라우드 보안 엔지니어 포지션을 준비하며, AWS VPC 핵심 개념을 Terraform으로
-직접 구현하고 실제 EC2/Session Manager를 통해 동작을 검증한 레퍼런스
-아키텍처입니다. AZ 이중화, NAT Gateway 설계, SSH 없는 접속(Session Manager),
-IMDSv2 강제 등 보안 모범 사례를 코드로 구현하고, 각 설계 결정의 근거를
-문서화했습니다.
+AWS VPC 핵심 개념을 Terraform으로 직접 구현하고 실제 EC2/Session Manager를 통해 동작을 
+검증한 레퍼런스 아키텍처입니다. AZ 이중화, NAT Gateway 설계, SSH 없는 접속(Session Manager),
+IMDSv2 강제 등 보안 모범 사례를 코드로 구현하고, 각 설계 결정의 근거를 문서화했습니다.
 
 ---
 
